@@ -1,0 +1,51 @@
+Angular1のシルグルページアプリケーションのためのフレームワーク
+- Angular1でできていたことがほぼ全てできる
+- 欠点も改善している
+- 画面とURLの紐づけのURLルーティングをAngular1では行っていたが、2ではコンポーネントルーター
+- コンポーネント指向
+    - Angular1.5はコンポーネント指向
+        - 1の人は2よりも手軽に触れられる
+- TypeScriptがメイン
+    - デコレーター？
+        - コードの見通しが良くなる
+- HTMLテンプレート(属性)
+- デコレーターに直接書く or templateUrl
+- CSSも指定できる(カプセル化)
+- = コンポーネントのカプセル化
+
+- 1から2への移植
+    - ng-upgrade
+       - 1のモデルを2で呼び出したり、逆に2のモデルを1で呼び出せる
+
+
+- 1と比べるとソースが整理されて綺麗にかける
+- パフォーマンスや設計上の問題がなくなった
+
+https://html5experts.jp/shumpei-shiraishi/18659/
+
+- ES.next、Decorators、Observables、Zones等、最新のWeb標準技術について学ぶことが大前提
+
+- Angular1 (MVC,MVW)  / Angular2 コンポーネント指向
+
+
+- 処理速度・パフォーマンスの向上
+- AndroidやiOS対応
+- デスクトップアプリ対応
+- サーバサイドレンダリング対応
+
+比較
+http://rdlabo.jp/angular2-364.php
+https://codeiq.jp/magazine/2015/05/24294/
+Plunker
+http://plnkr.co/edit/tpl:XmZkHzl407z93R5Kf0pv?p=preview
+記事：npm i Hello worldするまで
+http://qiita.com/armorik83/items/519cbc94459a87a4fbba
+http通信？
+http://nicholasjohnson.com/blog/how-to-do-everything-in-angular2-using-es6/
+記事A2 for JS
+http://albatrosary.hateblo.jp/entry/2016/01/26/091031
+http://onehungrymind.com/build-a-simple-website-with-angular-2/
+
+5min 日本語
+http://blog.yuhiisk.com/archive/2015/12/03/angular2-quickstart-japanese.html
+http://blog.yuhiisk.com/archive/2016/05/03/learning-method-of-angular2.html
